@@ -1,0 +1,93 @@
+2018/12/12 11:16:29.430 [N] [default.go:83]  SaveToDB,写入测试:OK 
+2018/12/12 11:16:29.430 [N] [default.go:97]  ReadFromDB,读取测试:qiuqiu 
+2018/12/12 15:28:26.899 [N] [default.go:83]  SaveToDB,写入测试:OK 
+2018/12/12 15:28:26.899 [N] [default.go:97]  ReadFromDB,读取测试:qiuqiu 
+2018/12/12 15:28:58.991 [N] [default.go:83]  SaveToDB,写入测试:OK 
+2018/12/12 15:28:58.992 [N] [default.go:97]  ReadFromDB,读取测试:ccc 
+2018/12/12 15:50:09.267 [N] [myredis.go:75]  SaveToDB,写入测试:OK 
+2018/12/12 15:50:09.268 [N] [myredis.go:90]  redis get failed:redigo: nil returned 
+2018/12/12 15:50:58.611 [N] [myredis.go:75]  SaveToDB,写入测试:OK 
+2018/12/12 15:50:58.612 [N] [myredis.go:94]  ReadFromDB,读取测试:bbbbb 
+2018/12/12 15:51:04.715 [N] [myredis.go:75]  SaveToDB,写入测试:OK 
+2018/12/12 15:51:04.716 [N] [myredis.go:94]  ReadFromDB,读取测试:qqqq 
+2018/12/12 16:15:26.719 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 16:15:26.720 [N] [myredis.go:95]  ReadFromDB,读取测试:cchhh 
+2018/12/12 16:15:26.720 [N] [myredis.go:112]  MsetToDB,批量测试:OK 
+2018/12/12 16:15:26.720 [N] [myredis.go:127]  38 <nil> 
+2018/12/12 16:17:33.580 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 16:17:33.581 [N] [myredis.go:95]  ReadFromDB,读取测试:vvvvv 
+2018/12/12 16:17:33.581 [N] [myredis.go:112]  MsetToDB,批量测试:OK 
+2018/12/12 16:17:33.581 [N] [myredis.go:127]  33 <nil> 
+2018/12/12 16:27:52.655 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 16:27:52.656 [N] [myredis.go:95]  ReadFromDB,读取测试:gggg 
+2018/12/12 16:27:52.656 [C] [asm_amd64.s:509]  the request url is  /
+2018/12/12 16:27:52.657 [C] [asm_amd64.s:509]  Handler crashed with error assignment to entry in nil map
+2018/12/12 16:27:52.657 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/asm_amd64.s:509
+2018/12/12 16:27:52.657 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/panic.go:491
+2018/12/12 16:27:52.657 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/hashmap_fast.go:600
+2018/12/12 16:27:52.658 [C] [asm_amd64.s:509]  E:/go/beego/src/WEB/models/myredis/myredis.go:109
+2018/12/12 16:27:52.658 [C] [asm_amd64.s:509]  E:/go/beego/src/WEB/controllers/default.go:52
+2018/12/12 16:27:52.658 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/asm_amd64.s:509
+2018/12/12 16:27:52.659 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/reflect/value.go:434
+2018/12/12 16:27:52.659 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/reflect/value.go:302
+2018/12/12 16:27:52.659 [C] [asm_amd64.s:509]  E:/go/beego/src/github.com/astaxie/beego/router.go:852
+2018/12/12 16:27:52.659 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/net/http/server.go:2619
+2018/12/12 16:27:52.660 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/net/http/server.go:1801
+2018/12/12 16:27:52.660 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/asm_amd64.s:2337
+2018/12/12 16:27:52.661 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/12 16:28:31.506 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 16:28:31.508 [N] [myredis.go:95]  ReadFromDB,读取测试:bbbbbb 
+2018/12/12 16:28:31.508 [C] [asm_amd64.s:509]  the request url is  /
+2018/12/12 16:28:31.508 [C] [asm_amd64.s:509]  Handler crashed with error assignment to entry in nil map
+2018/12/12 16:28:31.508 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/asm_amd64.s:509
+2018/12/12 16:28:31.509 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/panic.go:491
+2018/12/12 16:28:31.509 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/hashmap_fast.go:600
+2018/12/12 16:28:31.509 [C] [asm_amd64.s:509]  E:/go/beego/src/WEB/models/myredis/myredis.go:109
+2018/12/12 16:28:31.510 [C] [asm_amd64.s:509]  E:/go/beego/src/WEB/controllers/default.go:52
+2018/12/12 16:28:31.510 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/asm_amd64.s:509
+2018/12/12 16:28:31.510 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/reflect/value.go:434
+2018/12/12 16:28:31.510 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/reflect/value.go:302
+2018/12/12 16:28:31.512 [C] [asm_amd64.s:509]  E:/go/beego/src/github.com/astaxie/beego/router.go:852
+2018/12/12 16:28:31.512 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/net/http/server.go:2619
+2018/12/12 16:28:31.512 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/net/http/server.go:1801
+2018/12/12 16:28:31.513 [C] [asm_amd64.s:509]  E:/goEnv/Go/src/runtime/asm_amd64.s:2337
+2018/12/12 16:28:31.513 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
+2018/12/12 16:31:17.355 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 16:31:17.355 [N] [myredis.go:95]  ReadFromDB,读取测试:mmmm 
+2018/12/12 16:31:17.356 [N] [myredis.go:115]  map批量测试:France=Paris 
+2018/12/12 16:31:17.356 [N] [myredis.go:115]  map批量测试:Italy=罗马 
+2018/12/12 16:31:17.356 [N] [myredis.go:115]  map批量测试:Japan=东京 
+2018/12/12 16:31:17.356 [N] [myredis.go:115]  map批量测试:India =新德里 
+2018/12/12 16:31:17.357 [N] [myredis.go:122]  MsetToDB,批量测试:OK 
+2018/12/12 16:32:19.555 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 16:32:19.555 [N] [myredis.go:95]  ReadFromDB,读取测试:kkkk 
+2018/12/12 16:32:19.555 [N] [myredis.go:115]  map批量测试:France=Paris 
+2018/12/12 16:32:19.556 [N] [myredis.go:115]  map批量测试:Italy=罗马 
+2018/12/12 16:32:19.556 [N] [myredis.go:115]  map批量测试:Japan=东京 
+2018/12/12 16:32:19.556 [N] [myredis.go:115]  map批量测试:India =新德里 
+2018/12/12 16:32:19.557 [N] [myredis.go:122]  MsetToDB,批量测试:OK 
+2018/12/12 16:53:16.775 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 16:53:16.776 [N] [myredis.go:95]  ReadFromDB,读取测试:dddd 
+2018/12/12 16:53:16.776 [N] [myredis.go:119]  map批量测试:'MSET','EX', '50','France','Paris','Italy','罗马','Japan','东京','India ','新德里' 
+2018/12/12 16:53:16.776 [N] [myredis.go:125]  MsetToDB,批量测试:OK 
+2018/12/12 16:54:14.455 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 16:54:14.457 [N] [myredis.go:95]  ReadFromDB,读取测试:gdfg 
+2018/12/12 16:54:14.457 [N] [myredis.go:119]  map批量测试:'MSET','EX', '60','France','Paris','Italy','罗马','Japan','东京','India ','新德里' 
+2018/12/12 16:54:14.457 [N] [myredis.go:123]  130 <nil> 
+2018/12/12 16:55:04.223 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 16:55:04.223 [N] [myredis.go:95]  ReadFromDB,读取测试:sss 
+2018/12/12 16:55:04.224 [N] [myredis.go:119]  map批量测试:'MSET','EX', '60','France','Paris','Italy','罗马','Japan','东京','India ','新德里' 
+2018/12/12 16:55:04.224 [N] [myredis.go:123]  130 <nil> 
+2018/12/12 17:08:13.982 [N] [myredis.go:76]  SaveToDB,写入测试:OK 
+2018/12/12 17:08:13.983 [N] [myredis.go:96]  ReadFromDB,读取测试:gggg 
+2018/12/12 17:08:13.984 [N] [myredis.go:116]  Json:map[France:Paris Italy:罗马 Japan:东京 India :新德里] 
+2018/12/12 17:08:13.984 [N] [myredis.go:123]  SaveToDB,写入测试:OK 
+2018/12/12 17:12:23.932 [N] [myredis.go:77]  SaveToDB,写入测试:OK 
+2018/12/12 17:12:23.933 [N] [myredis.go:97]  ReadFromDB,读取测试:dfdf 
+2018/12/12 17:12:23.933 [N] [myredis.go:117]  Json:map[Japan:东京 India :新德里 France:Paris Italy:罗马] 
+2018/12/12 17:12:23.933 [N] [myredis.go:125]  SaveToDB,写入测试:OK 
+2018/12/12 17:13:44.303 [N] [myredis.go:77]  SaveToDB,写入测试:OK 
+2018/12/12 17:13:44.304 [N] [myredis.go:97]  ReadFromDB,读取测试:sdsd 
+2018/12/12 17:13:44.304 [N] [myredis.go:117]  Json:map[France:Paris Italy:罗马 Japan:东京 India :新德里] 
+2018/12/12 17:13:44.304 [N] [myredis.go:125]  SaveToDB,写入测试:OK 
+2018/12/12 17:13:44.304 [N] [myredis.go:145]  ReadFromDB,读取测试:{"France":"Paris","India ":"新德里","Italy":"罗马","Japan":"东京"} 
